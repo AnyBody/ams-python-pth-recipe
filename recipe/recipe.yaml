@@ -1,0 +1,25 @@
+context:
+  version: "1.0.0"
+
+package:
+  name: "ams-python-pth"
+  version: ${{ version }}
+
+build:
+  skip: 
+    - not win
+
+requirements:
+  run:
+    - python
+
+about:
+  homepage: https://github.com/anybody/ams-python-pth
+  license: MIT
+  license_file: LICENSE
+  summary: Adds a python3XY._pth file to the Python installation directory
+  description: |
+    This package adds a ._pth file to the Python installation directory.
+    This file is used to add additional directories to the Python path.
+  documentation: https://github.com/anybody/ams-python-pth
+  repository: https://github.com/anybody/ams-python-pth
