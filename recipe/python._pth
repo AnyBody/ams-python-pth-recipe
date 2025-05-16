@@ -1,6 +1,9 @@
 .
+./DLLs/
 ./Lib/
 ./Lib/site-packages/
-./Scripts/
-./DLLs/
+./Lib/site-packages/win32
+./Lib/site-packages/win32/lib
+./Lib/site-packages/Pythonwin
 ./Library/bin/
+./Scripts/

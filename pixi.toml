@@ -4,11 +4,11 @@ channels = ["conda-forge"]
 description = "Add a short description here"
 name = "ams-python-pth-recipe"
 platforms = ["win-64"]
-version = "1.0.0"
+version = "2.0.0"
 
 [tasks]
 build = {cmd="rattler-build build --no-include-recipe --recipe=recipe/recipe.yaml"}
-upload-with-1pass = "op run --env-file=upload.env -- rattler-build upload anaconda --verbose -o anybody output/win-64/ams-python-pth*.conda"
+upload-with-1pass = "op run --env-file=upload.env -- anaconda upload --user anybody output/win-64/ams-python-pth*.conda"
 
 [dependencies]
-rattler-build = "*"
+rattler-build = ">=0.39.0,<0.40"
