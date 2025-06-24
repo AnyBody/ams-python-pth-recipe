@@ -1,0 +1,1 @@
+remove-item env:\ANYBODY_PATH_PYTHONHOME

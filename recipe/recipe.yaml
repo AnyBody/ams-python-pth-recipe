@@ -1,5 +1,5 @@
 context:
-  version: "2.0.0"
+  version: "3.0.0"
 
 package:
   name: "ams-python-pth"
@@ -19,9 +19,11 @@ about:
   homepage: https://github.com/anybody/ams-python-pth
   license: MIT
   license_file: LICENSE
-  summary: Adds a python3XY._pth file to the Python installation directory
+  summary: Enables the Python envionments to be used by the AnyBody Modeling System (AMS).
   description: |
-    This package adds a ._pth file to the Python installation directory.
-    This file is used to add additional directories to the Python path.
+    Enables the Python envionment to be used by the AnyBody Modeling System
+    (AMS) by providing a Python path that AMS can use to find Python packages.
+    It also sets the `ANYBODY_PATH_PYTHONHOME` in the activated environment,
+    which tells AMS where to find the Python installation.
   documentation: https://github.com/anybody/ams-python-pth
   repository: https://github.com/anybody/ams-python-pth
